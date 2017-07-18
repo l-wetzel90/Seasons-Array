@@ -5,7 +5,7 @@
 // 1. Look at my version http://citatscc.org/~fs148523/Seasonal/
 // 2. You'll use the $seasons array to make the appropriate parts of the page be dynamic to match my version.
 // 3. Use php's date function to get current month's number without leading zeros http://php.net/manual/en/function.date.php
-// 4. Write some logic to turn the month number into a string for one of the four seasons that are keys to the array
+// 4. Write some logic to use the month number to create a month string to use as a key for the $seasons array 
 // 5. Add the ability so that if the month is appended on the URL as a get parameter override the actual month
 //      e.g. if this is entered in the address bar http://localhost/SeasonalWorkIt/index.php?month=12
 //           the page would display the styling for Winter
